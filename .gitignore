@@ -1,8 +1,35 @@
+# Dependencies
+node_modules/
 
 # Playwright
-node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+playwright-report/
+test-results/
+blob-report/
+
+# Reports
+reports/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Screenshots & Videos
+screenshots/
+videos/
+traces/
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
